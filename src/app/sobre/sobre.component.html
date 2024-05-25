@@ -1,0 +1,33 @@
+<div class="">
+  <button
+    (click)="alternarVisibilidadeSobre()"
+    type="button"
+
+  >
+    Sobre:
+  </button>
+
+  
+</div>
+
+<div id="sobre" *ngIf="sobreVisivel">
+  <div class="container">
+    <div class="row">
+      <div id="info" class="col-md-2 col-4"> 
+        <p>Turma: <span class="turma">ADS0304N</span></p>
+        <p>Turno: <span class="turno">Noite</span></p>
+        <p>Unidade: <span class="unidade">Bonsucesso</span></p>
+      </div>
+      <div id="imagem" class="col-md-1 col-1 text-center"> 
+        <img
+          src="assets/camila.jpeg"
+          class="img-fluid"
+          style="max-width: 72px; height: auto;" 
+          alt="Foto do aluno"
+        />
+      </div>
+      <div id="nome" class="col-md-2 col-7">
+        <p>Nome: <span class="nome">Camila Landy Fernandes de Oliveira</span></p>
+      </div>
+    </div>
+  </div>

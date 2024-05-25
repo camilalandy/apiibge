@@ -1,0 +1,41 @@
+
+
+#divCep{
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+button{
+  border: 40px;
+  border-radius: 5px;
+  background-color: 	#FF1493;
+
+}
+
+input{
+  border-radius: 10px;
+}
+
+#infoCep{
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#infoCep2{
+  margin-left: 145px;
+}

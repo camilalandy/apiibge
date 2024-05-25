@@ -1,0 +1,13 @@
+button{
+
+  border-radius: 5px;
+  background-color: 	#FF1493;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}

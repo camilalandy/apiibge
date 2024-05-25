@@ -1,0 +1,44 @@
+<style>
+
+</style>
+
+
+
+<div id="divCep" name="divCep"> CEP:
+
+<br>
+<input [(ngModel)]="cep" id="cep" name="cep" >
+
+
+<br>
+
+<button type="button" (click)="calcular('cep')"> Buscar </button>
+
+</div>
+<br>
+<div id="infoCep">
+<h3>Informações do CEP</h3>
+</div>
+<div id="infoCep2">
+<ul>
+  CEP: {{ buscaCep?.cep }}
+  <br>
+  Logradouro: {{ buscaCep?.logradouro }}
+  <br>
+  Complemento: {{ buscaCep?.complemento }}
+  <br>
+  Bairro: {{ buscaCep?.bairro }}
+  <br>
+  Localidade: {{ buscaCep?.localidade }}
+  <br>
+  UF: {{ buscaCep?.uf }}
+  <br>
+  IBGE: {{ buscaCep?.ibge }}
+  <br>
+  GIA: {{ buscaCep?.gia }}
+  <br>
+  DDD: {{ buscaCep?.ddd }}
+  <br>
+  SIAFI: {{ buscaCep?.siafi }}
+</ul>
+</div>
